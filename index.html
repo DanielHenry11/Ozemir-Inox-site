@@ -5,8 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ozemir Inox - Corrimões e Estruturas</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap"
     rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <link rel="stylesheet" href="style.css"> <!-- seu CSS separado -->
 </head>
 
@@ -26,12 +30,16 @@
       </ul>
     </nav>
 
-  </header> <!-- Seção Início / Hero -->
+  </header>
+  
+  <!-- Seção Início / Hero -->
   <section class="hero">
-    <h2>Qualidade e segurança em corrimões e estruturas em inox</h2>
+    <h2 class="hero-p">Qualidade e segurança em corrimões e estruturas em inox</h2>
     <p>Projetos sob medida para residências e empresas em Natal e região</p> <button><a href="#contato"
         class="btn">ENTRE EM CONTATO COMIGO AGORA</a></button>
-  </section> <!-- Seção Sobre -->
+  </section> 
+  
+  <!-- Seção Sobre -->
   <section class="sobre">
     <div class="img-soldador"> <img
         src="https://imgs.search.brave.com/xJ30ITAMMk95y-aT9SElm1YuQMOqgkLAC46_uQ83kRk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/Zm90b3MtcHJlbWl1/bS9zb2xkYWRvci1w/cm9maXNzaW9uYWwt/ZW0tdW5pZm9ybWUt/ZGUtcHJvdGVjYW8t/ZS1tYXNjYXJhLWRl/LXR1Ym8tZGUtbWV0/YWwtZGUtc29sZGFn/ZW0tbmEtbWVzYS1p/bmR1c3RyaWFsLWNv/bS1vdXRyb3MtdHJh/YmFsaGFkb3Jlcy1h/dHJhcy1uYS1vZmlj/aW5hLWluZHVzdHJp/YWxfMjMyMDcwLTY3/MjcuanBnP3NlbXQ9/YWlzX2h5YnJpZCZ3/PTc0MA"
@@ -82,11 +90,23 @@
       </div>
     </div>
   </section>
+
+  <!--Seção contato-->
+  <section class="contato-section">
+    <div class="contato-container">
+        <h2>ENTRE EM CONTATO CONOSCO<br>AGORA MESMO!</h2>
+        <p>Entre em contato com nossa equipe para orçamento e mais informações.</p>
+        <a href="https://api.whatsapp.com/send?phone=5511999999999&text=Olá, gostaria de mais informações!"
+           class="btn-contato" target="_blank">
+           FALE COM UM DOS NOSSOS ESPECIALISTAS
+        </a>
+    </div>
+</section>
   
   <!-- Seção Portfólio -->
   <section class="portfolio">
     <p>Confira o</p>
-    <h2>NOSSO PORTFÓLIO</h2>
+    <h2>Nosso Portfólio</h2>
     <div class="galeria"> 
 
       <img src="corrimão.png" alt="Corrimão de inox instalado"> 
@@ -112,12 +132,41 @@
   </section>
   
   <!-- Seção Contato -->
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>📍 Rua Josebias Costa Barreto, 423 - Cidade da Esperança, Natal-RN</p>
-    <p>📞 (84) 98875-9232</p>
-    <p>📧 italopatriciosouza@hotmail.com</p> <a href="https://wa.me/5584988759232" class="btn">Chamar no WhatsApp</a>
-  </section>
+  <section class="contato-2">
+  <div class="contato-container-2">
+
+    <div class="col-esquerda">
+      <h2>Ozemir Inox</h2>
+    </div>
+
+    <div class="col-meio">
+
+      <h2>CONTATO</h2>
+
+      <p><i class="fa-solid fa-location-dot"></i> Rua Josebias Costa Barreto, 423 - Cidade da Esperança, Natal-RN</p>
+      
+      <p><i class="fa-solid fa-phone"></i> (84) 98875-9232</p>
+
+      <p><i class="fa-solid fa-envelope"></i> italopatriciosouza@hotmail.com</p>
+
+      <button>
+      <a href="https://wa.me/5584988759232" class="btn"><i class="fa-brands fa-whatsapp"></i>Chamar no WhatsApp</a>
+      </button>
+
+    </div>
+
+    <div class="col-direita">
+      <h2>NAVEGAÇÃO</h2>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+  </div>
+</section>
   
   <!-- Rodapé -->
   <footer>
