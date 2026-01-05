@@ -18,7 +18,9 @@ header {
     display: flex;
     justify-content: space-around;
     height: 100px;
+    width: 100%;
     align-items: center;
+    position: fixed;
 }
 
 .logo {
@@ -532,6 +534,10 @@ footer {
 
   .sobre p {
     font-size: 1rem;
+  }
+
+  .img-soldador {
+    width: 60%;
   }
 
   .portfolio p {
