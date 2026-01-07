@@ -93,9 +93,45 @@ nav a:hover {
 }
 
 .btn {
-    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f3f8ff;
     color: #10B981;
+    text-decoration: none;
+    border: none;
+    border-radius: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
     font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #10B981;
+    color: #ffffff;
+}
+
+.btn2 {
+    padding: 16px;
+    background-color: #1E293B;
+    color: #10B981;
+    text-decoration: none;
+    font-size: 14px;
+    width: 310px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 17px;
+    border-radius: 10px;
+    margin-left: 40px;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.btn2:hover {
+  background-color: #474d56;
 }
 
 .sobre {
@@ -526,6 +562,11 @@ footer {
     max-width: 280px;
   }
 
+  .btn2 {
+    display: block;
+    margin: 0 auto;
+  }
+
   .cards {
     grid-template-columns: 1fr;
     gap: 25px;
@@ -579,3 +620,4 @@ footer {
     font-size: 0.8rem;
   }
 }
+
