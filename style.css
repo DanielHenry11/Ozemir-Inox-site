@@ -13,6 +13,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 header {
     background-color: rgba(229, 235, 249, 0.76);
     display: flex;
